@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Demo storefront site. Remove this block when customized for a real business.
