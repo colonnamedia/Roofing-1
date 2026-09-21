@@ -8,7 +8,7 @@
 - **Storefront price:** $699.99 setup + $39.99/month hosting
 - **Included edits:** 3
 - **Repository:** https://github.com/colonnamedia/Roofing-1
-- **Live demo:** Set after Vercel deployment
+- **Live demo:** https://roofing-1-lime.vercel.app/
 
 ## Conversion strategy
 
