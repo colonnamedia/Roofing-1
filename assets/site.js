@@ -17,7 +17,7 @@ document.querySelectorAll("[data-demo-form]").forEach((form) => {
     const button = form.querySelector('button[type="submit"]');
     const original = button.textContent;
     button.disabled = true;
-    button.textContent = "Request received";
+    button.textContent = "Demo preview complete";
     let message = form.querySelector(".form-success");
     if (!message) {
       message = document.createElement("p");
@@ -25,7 +25,7 @@ document.querySelectorAll("[data-demo-form]").forEach((form) => {
       message.setAttribute("role", "status");
       form.appendChild(message);
     }
-    message.textContent = "Demo request received. A real customer site would send this directly to the roofing team.";
+    message.textContent = "Demo complete. Nothing was sent or stored. A real customer site needs a verified inbox or CRM connection before accepting requests.";
     setTimeout(() => {
       button.disabled = false;
       button.textContent = original;
@@ -43,3 +43,4 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 document.querySelectorAll(".reveal").forEach((node) => observer.observe(node));
+

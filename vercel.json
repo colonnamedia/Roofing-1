@@ -13,6 +13,9 @@
   ],
   "rewrites": [
     { "source": "/services", "destination": "/services.html" },
-    { "source": "/inspection", "destination": "/inspection.html" }
+    { "source": "/inspection", "destination": "/inspection.html" },
+    { "source": "/projects", "destination": "/projects.html" },
+    { "source": "/service-areas", "destination": "/service-areas.html" }
   ]
 }
+
