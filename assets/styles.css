@@ -49,7 +49,7 @@ p { margin: 0; }
 .btn-outline { border-color: rgba(255,255,255,.45); color: white; }
 
 .hero { position: relative; min-height: 760px; display: grid; align-items: stretch; overflow: hidden; background: var(--ink); color: white; }
-.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,24,23,.96) 0%, rgba(16,24,23,.82) 43%, rgba(16,24,23,.2) 72%, rgba(16,24,23,.08) 100%), url("/assets/hero-fireworks-2026.webp") center/cover; }
+.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,24,23,.96) 0%, rgba(16,24,23,.82) 43%, rgba(16,24,23,.2) 72%, rgba(16,24,23,.08) 100%), url("/assets/hero-fireworks-2026-v2.webp") center/cover; }
 .hero::after { content: ""; position: absolute; width: 520px; height: 520px; right: -180px; bottom: -250px; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; box-shadow: 0 0 0 70px rgba(255,255,255,.03), 0 0 0 140px rgba(255,255,255,.02); }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0,1.25fr) minmax(330px,.7fr); align-items: center; gap: 70px; padding: 90px 0 76px; }
 .hero-copy { max-width: 760px; }
@@ -59,7 +59,7 @@ p { margin: 0; }
 .proof-row { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 38px; color: rgba(255,255,255,.78); font-size: .86rem; font-weight: 750; }
 .proof-row span::before { content: "✓"; color: #ff9c70; margin-right: 8px; }
 .emergency-card { align-self: end; margin-bottom: -14px; background: rgba(255,253,248,.97); color: var(--ink); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
-.emergency-card::before { content: ""; display: block; height: 170px; margin: -28px -28px 24px; border-radius: 20px 20px 0 0; background: url("/assets/hero-fireworks-2026.webp") 76% center/cover no-repeat; }
+.emergency-card::before { content: ""; display: block; height: 170px; margin: -28px -28px 24px; border-radius: 20px 20px 0 0; background: url("/assets/hero-fireworks-2026-v2.webp") 76% center/cover no-repeat; }
 .emergency-card .flag { display: inline-flex; align-items: center; gap: 7px; margin-bottom: 14px; color: var(--orange-dark); font-size: .74rem; font-weight: 950; letter-spacing: .13em; text-transform: uppercase; }
 .emergency-card h2 { font-size: 2rem; }
 .emergency-card p { margin: 10px 0 18px; color: #626d69; font-size: .9rem; }
@@ -170,7 +170,7 @@ p { margin: 0; }
   .menu-button { display: block; }
   .mobile-menu.is-open { display: grid; gap: 14px; padding: 0 20px 22px; font-weight: 800; }
   .hero { min-height: auto; }
-  .hero::before { background: linear-gradient(180deg,rgba(16,24,23,.85),rgba(16,24,23,.97)), url("/assets/hero-fireworks-2026.webp") center/cover; }
+  .hero::before { background: linear-gradient(180deg,rgba(16,24,23,.85),rgba(16,24,23,.97)), url("/assets/hero-fireworks-2026-v2.webp") center/cover; }
   .hero-grid, .split, .financing-grid, .inspection-layout, .page-hero .container { grid-template-columns: 1fr; }
   .hero-grid { gap: 42px; padding-top: 72px; }
   .emergency-card { margin: 0; }
