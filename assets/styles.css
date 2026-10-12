@@ -169,7 +169,7 @@ p { margin: 0; }
   .menu-button { display: block; }
   .mobile-menu.is-open { display: grid; gap: 14px; padding: 0 20px 22px; font-weight: 800; }
   .hero { min-height: auto; }
-  .hero::before { background: linear-gradient(180deg,rgba(16,24,23,.85),rgba(16,24,23,.97)), url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1500&q=86") center/cover; }
+  .hero::before { background: linear-gradient(180deg,rgba(16,24,23,.85),rgba(16,24,23,.97)), url("/assets/hero-fireworks-2026.webp") center/cover; }
   .hero-grid, .split, .financing-grid, .inspection-layout, .page-hero .container { grid-template-columns: 1fr; }
   .hero-grid { gap: 42px; padding-top: 72px; }
   .emergency-card { margin: 0; }
