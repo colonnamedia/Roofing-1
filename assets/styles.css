@@ -59,6 +59,7 @@ p { margin: 0; }
 .proof-row { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 38px; color: rgba(255,255,255,.78); font-size: .86rem; font-weight: 750; }
 .proof-row span::before { content: "✓"; color: #ff9c70; margin-right: 8px; }
 .emergency-card { align-self: end; margin-bottom: -14px; background: rgba(255,253,248,.97); color: var(--ink); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
+.emergency-card::before { content: ""; display: block; height: 170px; margin: -28px -28px 24px; border-radius: 20px 20px 0 0; background: url("/assets/hero-fireworks-2026.webp") 76% center/cover no-repeat; }
 .emergency-card .flag { display: inline-flex; align-items: center; gap: 7px; margin-bottom: 14px; color: var(--orange-dark); font-size: .74rem; font-weight: 950; letter-spacing: .13em; text-transform: uppercase; }
 .emergency-card h2 { font-size: 2rem; }
 .emergency-card p { margin: 10px 0 18px; color: #626d69; font-size: .9rem; }
