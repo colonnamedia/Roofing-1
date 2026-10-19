@@ -49,3 +49,8 @@ The site answers high-intent roofing questions in order: What is wrong? What are
 
 Required: business identity, actual service territory, verified phone and hours, roof specialties, project photos and permissions, warranty/certification evidence, real testimonials, and chosen lead destination. Future hero directions: close-up repair detail, storm inspection, and completed home exterior. Real before-and-after comparisons require matching photos of the same property.
 
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
