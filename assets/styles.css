@@ -57,7 +57,7 @@ p { margin: 0; }
 .hero .lede { max-width: 650px; margin-top: 24px; color: rgba(255,255,255,.8); font-size: 1.13rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 32px; }
 .proof-row { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 38px; color: rgba(255,255,255,.78); font-size: .86rem; font-weight: 750; }
-.proof-row span::before { content: "✓"; color: #ff9c70; margin-right: 8px; }
+.proof-row span::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 8px; border-radius: 50%; background: #ff9c70; vertical-align: middle; }
 .emergency-card { align-self: end; margin-bottom: -14px; background: rgba(255,253,248,.97); color: var(--ink); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
 .emergency-card::before { content: ""; display: block; height: 170px; margin: -28px -28px 24px; border-radius: 20px 20px 0 0; background: url("/assets/hero-fireworks-2026-v2.webp") 76% center/cover no-repeat; }
 .emergency-card .flag { display: inline-flex; align-items: center; gap: 7px; margin-bottom: 14px; color: var(--orange-dark); font-size: .74rem; font-weight: 950; letter-spacing: .13em; text-transform: uppercase; }
@@ -101,7 +101,8 @@ p { margin: 0; }
 .split-image .badge span { max-width: 115px; font-size: .72rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
 .check-list { display: grid; gap: 16px; margin: 28px 0 34px; }
 .check { display: grid; grid-template-columns: 32px 1fr; gap: 12px; align-items: start; }
-.check i { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: #e7efe9; color: #2d6b49; font-style: normal; font-weight: 900; }
+.check i { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: #e7efe9; }
+.check i::after { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #2d6b49; }
 .check p { color: #64706c; font-size: .9rem; }
 
 .process { background: var(--cream); }
@@ -170,9 +171,10 @@ p { margin: 0; }
   .menu-button { display: block; }
   .mobile-menu.is-open { display: grid; gap: 14px; padding: 0 20px 22px; font-weight: 800; }
   .hero { min-height: auto; }
-  .hero::before { background: linear-gradient(180deg,rgba(16,24,23,.85),rgba(16,24,23,.97)), url("/assets/hero-fireworks-2026-v2.webp") center/cover; }
+  .hero::before { inset: 0 0 auto; height: 320px; background: linear-gradient(180deg, transparent 70%, rgba(16,24,23,.3)), url("/assets/hero-fireworks-2026-v2.webp") 64% center/cover no-repeat; }
+  .hero::after { display: none; }
   .hero-grid, .split, .financing-grid, .inspection-layout, .page-hero .container { grid-template-columns: 1fr; }
-  .hero-grid { gap: 42px; padding-top: 72px; }
+  .hero-grid { gap: 42px; padding-top: 350px; }
   .emergency-card { margin: 0; }
   .service-grid, .process-grid { grid-template-columns: repeat(2,1fr); }
   .trust-grid { grid-template-columns: repeat(2,1fr); }
@@ -188,7 +190,7 @@ p { margin: 0; }
   .topbar span:last-child { display: none; }
   .nav { min-height: 68px; }
   .brand img { width: 36px; height: 36px; }
-  .hero-grid { padding: 58px 0 44px; }
+  .hero-grid { padding: 350px 0 44px; }
   h1 { font-size: clamp(3rem,14vw,4.4rem); }
   .hero-actions .btn { width: 100%; }
   .form-grid, .service-grid, .process-grid, .review-grid, .service-detail-grid, .footer-grid, .cta-inner { grid-template-columns: 1fr; }
