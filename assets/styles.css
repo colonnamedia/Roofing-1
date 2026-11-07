@@ -226,3 +226,7 @@ p { margin: 0; }
 @media(max-width:900px){.project-grid,.area-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){.project-grid,.area-grid{grid-template-columns:1fr}.before-after{padding:28px}}
 
+
+/* Short, photo-led hero with CTA directly below the message. */
+@media(min-width:981px){.hero{min-height:650px}.hero-grid{display:block;min-height:650px;padding:160px 0 100px}.hero-copy{max-width:590px}.hero::before{background:linear-gradient(90deg,rgba(16,24,23,.92) 0%,rgba(16,24,23,.7) 34%,rgba(16,24,23,.08) 70%),url("/assets/hero-fireworks-2026-v2.webp") 62% center/cover no-repeat}}
+@media(max-width:980px){.hero-grid{padding-bottom:58px}.hero-copy{max-width:690px}}
